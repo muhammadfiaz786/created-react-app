@@ -32,4 +32,4 @@ jobs:
       - name: Install Surge
         run: npm install --global surge
       - name: Deploying on Surge
-        run: surge ./build http://project003-react.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build http://teeny-tiny-crate.surge.sh --token ${{secrets.SURGE_TOKEN}}
